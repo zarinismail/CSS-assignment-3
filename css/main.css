@@ -147,12 +147,6 @@ a:hover {
 /* media queries below - only 1 is needed */
 @media screen and (max-width: 720px) {
     
-    body {
-        margin: 0;
-    }
-    header img {
-        display: none;
-    }
     #container {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(9, auto);
@@ -169,6 +163,9 @@ a:hover {
     }
     header {
         padding: 1.5rem;
+    }
+    header img {
+        display: none;
     }
     h1, h2 {
         padding-top: 1rem;
